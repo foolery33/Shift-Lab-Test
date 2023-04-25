@@ -1,0 +1,38 @@
+/* 
+  RegisterScreenStrings.strings
+  Shift-Lab-Test
+
+  Created by admin on 22.04.2023.
+  
+*/
+
+"create_account" = "Create Account";
+"participate_contest" = "Participate in the contests you want!";
+
+"section_name" = "Name";
+"section_name_placeholder" = "Enter your name";
+
+"section_surname" = "Surname";
+"section_surname_placeholder" = "Enter your surname";
+
+"section_date_of_birth" = "Date of Birth";
+"section_date_of_birth_placeholder" = "DD.MM.YYYY";
+
+"section_password" = "Password";
+"section_password_placeholder" = "Enter your password";
+
+"section_confirm_password" = "Confirm Password";
+"section_confirm_password_placeholder" = "Confirm your password";
+
+"register_button" = "Sign up";
+
+// MARK: - Errors
+"name_validation_error" = "The name must be in Cyrillic or Latin characters only and contain at least two characters";
+"surname_validation_error" = "The surname must be in Cyrillic or Latin characters only and contain at least two characters";
+"date_of_birth_validation_error" = "The date of birth must be \"DD.MM.YYYYY\"";
+"password_validation_error" = "The password must contain only Latin letters and numbers and contain at least: one uppercase letter, one lowercase letter, one number";
+"password_equality_error" = "Passwords do not match. Please make sure that you enter the same passwords";
+"empty_field_error" = "Please make sure that you enter all data for registration";
+
+"register_failed" = "Registration failed";
+"ok" = "OK";

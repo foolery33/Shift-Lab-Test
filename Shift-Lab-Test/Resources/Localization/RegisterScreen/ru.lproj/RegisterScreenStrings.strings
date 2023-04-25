@@ -1,0 +1,38 @@
+/* 
+  RegisterScreenStrings.strings
+  Shift-Lab-Test
+
+  Created by admin on 22.04.2023.
+  
+*/
+
+"create_account" = "Создайте Аккаунт";
+"participate_contest" = "Участвуйте в конкурсах, которых хотите!";
+
+"section_name" = "Имя";
+"section_name_placeholder" = "Введите ваше имя";
+
+"section_surname" = "Фамилия";
+"section_surname_placeholder" = "Введите вашу фамилию";
+
+"section_date_of_birth" = "Дата рождения";
+"section_date_of_birth_placeholder" = "ДД.ММ.ГГГГ";
+
+"section_password" = "Пароль";
+"section_password_placeholder" = "Введите ваш пароль";
+
+"section_confirm_password" = "Подтвердите пароль";
+"section_confirm_password_placeholder" = "Введите ваш пароль повторно";
+
+"register_button" = "Зарегистрироваться";
+
+// MARK: - Errors
+"name_validation_error" = "Имя должно состоять только из кириллических или только латинских символов и содержать не менее двух символов";
+"surname_validation_error" = "Фамилия должна состоять только из кириллических или только латинских символов и содержать не менее двух символов";
+"date_of_birth_validation_error" = "Дата рождения должна принимать вид \"ДД.ММ.ГГГГ\"";
+"password_validation_error" = "Пароль должен состоять только из латинских букв и цифр и содержать минимум: одну заглавную букву, одну строчную букву, одну цифру";
+"password_equality_error" = "Пароли не совпадают. Пожалуйста убедитесь в том, что вы ввели одинаковые пароли";
+"empty_field_error" = "Пожалуйста, убедитесь, что вы ввели все данные для регистрации";
+
+"register_failed" = "Неудача при регистрации";
+"ok" = "ОК";
