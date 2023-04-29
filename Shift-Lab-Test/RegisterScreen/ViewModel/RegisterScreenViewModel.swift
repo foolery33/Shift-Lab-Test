@@ -33,6 +33,15 @@ final class RegisterScreenViewModel {
         self.confirmPassword = confirmPassword
     }
     
+    func areFieldsFilled() -> Bool {
+        return ValidateAllRegisterFieldsEmptiness().areFilled(
+            name: self.name,
+            surname: self.surname,
+            dateOfBirth: self.dateOfBirth,
+            password: self.password,
+            confirmPassword: self.confirmPassword)
+    }
+    
     func convertDateToString(_ date: Date) -> String {
         return ConvertDateToStringUseCase().convertDate(date)
     }
@@ -48,12 +57,10 @@ final class RegisterScreenViewModel {
             completion(false)
         }
         else {
+            UserDefaults.standard.setValue(true, forKey: "Authorized")
+            UserDefaults.standard.setValue(self.name, forKey: "Username")
             completion(true)
         }
-    }
-    
-    func goToMainScreen() {
-//        let mainViewController = 
     }
     
 }

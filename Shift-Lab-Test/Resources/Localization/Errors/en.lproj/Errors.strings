@@ -1,0 +1,11 @@
+/* 
+  Errors.strings
+  Shift-Lab-Test
+
+  Created by admin on 29.04.2023.
+  
+*/
+
+"model_error" = "Internal application error. Please contact developer";
+"server_error" = "Some server error occured. Please try again later";
+"unexpected_error" = "Some unexpected error occured. Please contact developer";

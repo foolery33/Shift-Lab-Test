@@ -10,9 +10,13 @@ import UIKit
 class FilledButton: UIButton {
 
     var label: String
+    var backColor: UIColor
+    var textColor: UIColor
     
-    init(label: String) {
+    init(label: String, backColor: UIColor, textColor: UIColor) {
         self.label = label
+        self.backColor = backColor
+        self.textColor = textColor
         super.init(frame: .zero)
         setupButton()
     }
@@ -36,11 +40,12 @@ class FilledButton: UIButton {
     }
     
     private func setupButton() {
-        self.layer.backgroundColor = R.color.darkGreen()?.cgColor
+        self.layer.backgroundColor = self.backColor.cgColor
         self.setTitle(label, for: .normal)
         self.contentEdgeInsets = UIEdgeInsets(top: Paddings.topContentPadding, left: Paddings.leadingContentPadding, bottom: Paddings.bottomContentPadding, right: Paddings.trailingContentPadding)
         self.titleLabel?.font = R.font.poppinsSemiBold(size: Scales.fontSize)
-        self.setTitleColor(.white, for: .normal)
+        self.setTitleColor(self.textColor, for: .normal)
+        self.setTitleColor(self.textColor.withAlphaComponent(0.5), for: .disabled)
         self.layer.cornerRadius = Scales.cornerRadius
     }
 

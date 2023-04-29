@@ -1,0 +1,15 @@
+/* 
+  MainScreenStrings.strings
+  Shift-Lab-Test
+
+  Created by admin on 29.04.2023.
+  
+*/
+
+"contests_loading_error" = "Contests loading error";
+"greeting_message" = "Just a greeting message!";
+"hello" = "Hello";
+"thanks_message" = "We're here just to tell you thanks for searching for contests through our app";
+"greeting_button_text" = "Greeting";
+"recommended_contests" = "Recommended contests";
+"dear_user" = "dear user";

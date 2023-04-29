@@ -71,6 +71,7 @@ class DatePickerTextField: UITextField {
         let myDatePicker = UIDatePicker()
         myDatePicker.tintColor = R.color.charcoal()
         myDatePicker.datePickerMode = .date
+        myDatePicker.maximumDate = Date()
         return myDatePicker
     }()
 }

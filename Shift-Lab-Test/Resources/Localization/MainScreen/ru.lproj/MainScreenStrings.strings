@@ -1,0 +1,15 @@
+/* 
+  MainScreenStrings.strings
+  Shift-Lab-Test
+
+  Created by admin on 29.04.2023.
+  
+*/
+
+"contests_loading_error" = "Ошибка загрузки контестов";
+"greeting_message" = "Просто приветственное сообщение!";
+"hello" = "Привет";
+"thanks_message" = "Хотим поблагодарить тебя за то, что пользуешься нашим приложением в поисках контеста";
+"greeting_button_text" = "Приветствие";
+"recommended_contests" = "Рекомендуемые контесты";
+"dear_user" = "дорогой пользователь";
